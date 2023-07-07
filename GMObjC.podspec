@@ -13,12 +13,9 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "lifei" => "lifei_zdjl@126.com" }
 
-  spec.platform     = :ios, "8.0"
-
   spec.static_framework = true
 
   spec.source       = { :git => "https://github.com/muzipiao/GMObjC.git", :tag => "#{spec.version}" }
-
 
   spec.source_files  = "GMObjC/Classes/**/*.{h,m}"
   
